@@ -1,17 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-main {
+section form {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-
-
-::-moz-progress-bar {
-    background-color: green;
-  }
-  
