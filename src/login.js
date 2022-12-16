@@ -1,7 +1,7 @@
-function new_user(email, senha) {
+function new_user(email, pass) {
 
     this.email = email
-    this.password = senha
+    this.password = pass
 }
 
 function create_user() {
